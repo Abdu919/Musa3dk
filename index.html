@@ -34,7 +34,7 @@
                 event.preventDefault(); 
                 const url = link.getAttribute('href'); 
 
-                fetch("https://e264-35-197-0-142.ngrok-free.app")
+                fetch(URL)
                     .then(response => response.text())
                     .then(html => {
                         mainContainer.innerHTML = html; 
